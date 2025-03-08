@@ -64,12 +64,13 @@ while opcao != 0:
                 print(f"Seu saldo agora: R${saldo}")
                 print("")
                 
-          
+    ## EXTRATO      
     if opcao == 3:
          print(f"Seus depositos: {depositos}\n")                       
          print(f"Seus saques: {saques}\n")                       
          print(f"Seu saldo agora: R${saldo}")                      
      
+    ##SAIR 
     if opcao == 0:
          break                      
 
